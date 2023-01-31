@@ -1,1 +1,5 @@
-[{"name": "npm cli"}, {"name": "cehsi"}, {"name": "ceshi2"}]
+[
+  { "name": "npm cli", "module": "frontEnd/npm/config.json" },
+  { "name": "cehsi", "module": "frontEnd/npm/config.json" },
+  { "name": "ceshi2", "module": "frontEnd/npm/config.json" }
+]
