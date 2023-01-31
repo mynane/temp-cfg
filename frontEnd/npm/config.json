@@ -4,7 +4,8 @@
       "handle": "Select",
       "options": ["ts", "es"],
       "placeholder": "请选择语言类型",
-      "key": "jsType"
+      "key": "jsType",
+      "isRequired": true
     }
   ],
   "files": []
