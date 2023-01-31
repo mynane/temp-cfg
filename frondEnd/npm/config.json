@@ -1,6 +1,4 @@
-[
-  {
-    "name": "package.json",
-    "content": "123123"
-  }
-]
+{
+  "meta": [],
+  "files": []
+}
