@@ -1,5 +1,1 @@
-[
-  { "name": "npm cli", "config": "frontEnd/npm/config.json" },
-  { "name": "cehsi", "config": "frontEnd/npm/config.json" },
-  { "name": "ceshi2", "config": "frontEnd/npm/config.json" }
-]
+[{ "name": "react module(react 模块)", "config": "frontEnd/npm/config.json" }]
