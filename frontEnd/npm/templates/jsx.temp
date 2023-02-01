@@ -1,0 +1,5 @@
+{% if jsType == 'ts' %}
+ts
+{% else %}
+jsType
+{% endif %}
