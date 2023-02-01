@@ -9,7 +9,7 @@
   "files": [
     {
       "name": "{{ name }}/package.json",
-      "template": "frontEnd/npm/templates/package.json"
+      "template": "frontEnd/rollupNpm/templates/package.json"
     }
   ]
 }
