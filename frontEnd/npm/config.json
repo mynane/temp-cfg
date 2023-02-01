@@ -44,6 +44,10 @@
     {
       "name": "{{ name }}/package.json",
       "content": "{\"name\": \"{{name}}\",\"private\": true,\"version\": \"0.0.1\"}"
+    },
+    {
+      "name": "{{ name }}/src/package.json",
+      "template": "frontEnd/npm/templates/jsx.temp"
     }
   ]
 }
