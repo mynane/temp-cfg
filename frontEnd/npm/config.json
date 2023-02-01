@@ -8,26 +8,6 @@
       "isRequired": true
     },
     {
-      "handle": "MultiSelect",
-      "options": ["eslint", "ts", "b", "c"],
-      "placeholder": "请选择支持功能(多选)",
-      "key": "functionTypes",
-      "isRequired": true
-    },
-    {
-      "handle": "FuzzySelect",
-      "options": ["eslint", "ts", "b", "c"],
-      "placeholder": "FuzzySelect请选择支持功能(多选)",
-      "key": "fuzzyTypes",
-      "isRequired": true
-    },
-    {
-      "handle": "Password",
-      "placeholder": "Password",
-      "key": "Password",
-      "isRequired": true
-    },
-    {
       "handle": "Input",
       "placeholder": "项目名称",
       "key": "name",
