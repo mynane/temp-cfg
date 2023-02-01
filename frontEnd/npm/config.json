@@ -30,7 +30,7 @@
   "files": [
     {
       "name": "{{ name }}/package.json",
-      "content": "{\"name\": \"{{name}}\",\"private\": true,\"version\": \"0.0.1\"}"
+      "content": "{\"name\": \"{{name|upper}}\",\"private\": true,\"version\": \"0.0.1\"}"
     },
     {
       "name": "{{ name }}/src/package.{% if jsType == 'ts' %}ts{% else %}js{% endif %}",
