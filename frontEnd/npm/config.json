@@ -46,7 +46,7 @@
       "content": "{\"name\": \"{{name}}\",\"private\": true,\"version\": \"0.0.1\"}"
     },
     {
-      "name": "{{ name }}/src/package.json",
+      "name": "{{ name }}/src/package.{{% if jsType == 'ts' %}}ts{% else %}js{% endif %}",
       "template": "frontEnd/npm/templates/jsx.temp"
     }
   ]
