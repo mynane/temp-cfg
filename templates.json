@@ -1,4 +1,4 @@
 [
-  { "name": "react module(react 模块)", "config": "frontEnd/npm/config.json" },
+  { "name": "react module(react 模块)", "config": "frontEnd/reactModule/config.json" },
   { "name": "rollup npm(rollup 开发npm包模版)", "config": "frontEnd/rollupNpm/config.json" }
 ]
