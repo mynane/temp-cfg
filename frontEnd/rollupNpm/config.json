@@ -1,0 +1,15 @@
+{
+  "meta": [
+    {
+      "handle": "Input",
+      "placeholder": "项目名称",
+      "key": "name"
+    }
+  ],
+  "files": [
+    {
+      "name": "{{ name }}/package.json",
+      "template": "frontEnd/npm/templates/package.json"
+    }
+  ]
+}

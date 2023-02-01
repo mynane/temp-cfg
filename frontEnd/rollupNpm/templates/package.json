@@ -1,0 +1,24 @@
+{
+  "name": "hiynn-design",
+  "version": "0.0.1",
+  "description": "base on react and antd layout framework",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiynn-com/hiynn-design.git"
+  },
+  "keywords": [
+    "react",
+    "antd",
+    "layout"
+  ],
+  "author": "zhangwei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hiynn-com/hiynn-design/issues"
+  },
+  "homepage": "https://github.com/hiynn-com/hiynn-design#readme"
+}
