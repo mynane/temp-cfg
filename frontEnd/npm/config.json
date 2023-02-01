@@ -42,7 +42,7 @@
   ],
   "files": [
     {
-      "file": "{{ name }}/package.json",
+      "name": "{{ name }}/package.json",
       "content": "{\"name\": \"{{name}}\",\"private\": true,\"version\": \"0.0.1\"}"
     }
   ]
