@@ -3,8 +3,15 @@
     {
       "handle": "Select",
       "options": ["ts", "es"],
-      "placeholder": "请选择语言类型",
+      "placeholder": "请选择js语言类型",
       "key": "jsType",
+      "isRequired": true
+    },
+    {
+      "handle": "Select",
+      "options": ["less", "sass", "css"],
+      "placeholder": "请选择样式类型",
+      "key": "styleType",
       "isRequired": true
     },
     {
