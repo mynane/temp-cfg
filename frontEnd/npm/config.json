@@ -2,39 +2,41 @@
   "meta": [
     {
       "handle": "Select",
-      "options": ["ts", "es"],
+      "options": ["tsx", "jsx"],
       "placeholder": "请选择js语言类型",
-      "key": "jsType",
-      "isRequired": true
+      "key": "jsType"
     },
     {
       "handle": "Select",
-      "options": ["less", "sass", "css"],
+      "options": ["less", "scss", "css"],
       "placeholder": "请选择样式类型",
-      "key": "styleType",
-      "isRequired": true
+      "key": "styleType"
+    },
+    {
+      "handle": "Confirm",
+      "placeholder": "是否使用css module",
+      "key": "useCssModule"
     },
     {
       "handle": "Input",
       "placeholder": "项目名称",
-      "key": "name",
-      "isRequired": true
+      "key": "name"
     },
     {
       "handle": "Confirm",
       "placeholder": "是否确认以上选择",
       "key": "isOk",
-      "isRequired": true
+      "false_close": true
     }
   ],
   "files": [
     {
-      "name": "{{ name }}/package.json",
-      "content": "{\"name\": \"{{name|first_char_upper}}\",\"private\": true,\"version\": \"0.0.1\"}"
+      "name": "{{ name }}/index.{{ jsType }}",
+      "template": "frontEnd/npm/templates/jsx.temp"
     },
     {
-      "name": "{{ name }}/src/package.{% if jsType == 'ts' %}ts{% else %}js{% endif %}",
-      "template": "frontEnd/npm/templates/jsx.temp"
+      "name": "{{ name }}/index.{{ styleType }}",
+      "template": "frontEnd/npm/templates/style.temp"
     }
   ]
 }
