@@ -1,6 +1,6 @@
 {% if jsType == 'tsx' %}
 import React from 'React'
-{% if jsType == 'useCssModule' %}
+{% if useCssModule == 'true' %}
 import styles from 'index.{{styleType}}'
 {% else %}
 import 'index.{{styleType}}'
@@ -10,20 +10,20 @@ export interface T{{name | first_char_upper}} {
 }
 
 const {{name | first_char_upper}}: React.FC<T{{name | first_char_upper}}> = (props) => {
-    return {% if jsType == 'useCssModule' %}<div className={styles.{{name}}}>{% else %}<div>{% endif %}{{name | first_char_upper}}</div>
+    return {% if useCssModule == 'true' %}<div className={styles.{{name}}}>{% else %}<div>{% endif %}{{name | first_char_upper}}</div>
 }
 
 export default {{name | first_char_upper}}
 
 {% else %}
 import React from 'React'
-{% if jsType == 'useCssModule' %}
+{% if useCssModule == 'true' %}
 import styles from 'index.{{styleType}}'
 {% else %}
 import 'index.{{styleType}}'
 {% endif %}
 const {{name | first_char_upper}} = (props) => {
-    return {% if jsType == 'useCssModule' %}<div className={styles.{{name}}}>{% else %}<div>{% endif %}{{name | first_char_upper}}</div>
+    return {% if useCssModule == 'true' %}<div className={styles.{{name}}}>{% else %}<div>{% endif %}{{name | first_char_upper}}</div>
 }
 
 export default {{name | first_char_upper}}
