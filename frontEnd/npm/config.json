@@ -29,8 +29,8 @@
     },
     {
       "handle": "Input",
-      "placeholder": "Input",
-      "key": "Input",
+      "placeholder": "项目名称",
+      "key": "name",
       "isRequired": true
     },
     {
@@ -40,5 +40,10 @@
       "isRequired": true
     }
   ],
-  "files": []
+  "files": [
+    {
+      "file": "{{ name }}/package.json",
+      "content": "{\"name\": \"{{name}}\",\"private\": true,\"version\": \"0.0.1\"}"
+    }
+  ]
 }
